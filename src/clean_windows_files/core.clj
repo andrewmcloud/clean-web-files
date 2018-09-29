@@ -16,7 +16,7 @@
        dorun))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Removes %20 from file names in specified"
   [& args]
   (let [[opts args banner] (cli args
                                 ["-h" "--help" "Use -d or --directory to specify a directory to clean"

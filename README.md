@@ -1,36 +1,24 @@
 # clean-windows-files
 
-FIXME: description
+Removes '%20' from windows files and replaces with '-'. Usesful when working with Windows generated files on linux or Mac. 
 
 ## Installation
 
-Download from http://example.com/FIXME.
+    $ lein uberjar
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar clean-windows-files-0.1.0-standalone.jar [args]
+    $ java -jar clean-windows-files-0.1.0-standalone.jar -d /path/to/directory
 
 ## Options
 
-FIXME: listing of options this app accepts.
+`-d, --directory`
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+`-h, --help`
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Andrew McLoud
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
